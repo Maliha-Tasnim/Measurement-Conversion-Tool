@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
       <form action="" method="post">
         
         <div class="entry">
-          <label>From:</label>&nbsp;
+          <label style="color:white;">From:</label>&nbsp;
           <input type="text" name="from_value" value="<?php echo $from_value; ?>" />&nbsp;
           <select name="from_unit">
             <option value="inches"<?php if($from_unit == 'inches') { echo " selected"; } ?>>inches</option>
@@ -52,7 +52,7 @@ if(isset($_POST['submit'])){
         </div>
         
         <div class="entry">
-          <label>To:</label>&nbsp;
+          <label style="color:white;">To:</label>&nbsp;
           <input type="text" name="to_value" value="<?php echo float_to_string($to_value); ?>" />&nbsp;
           <select name="to_unit">
             <option value="inches"<?php if($to_unit == 'inches') { echo " selected"; } ?>>inches</option>
@@ -71,7 +71,7 @@ if(isset($_POST['submit'])){
       </form>
   
       <br />
-      <a href="index.php"><center>Return to menu</a>
+      <a href="index.php" style="color:white;"><center>Return to menu</a>
       </center>
     </div>
   </body>

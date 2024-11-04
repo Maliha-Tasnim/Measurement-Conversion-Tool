@@ -14,7 +14,7 @@
 
     <div id="main-content">
 
-      <h1 style="color:white;"><center>Measurement Conversion</h1>
+      <h1 style="color:white; margin-top: 80px; margin-bottom: 80px;"><center>Measurement Conversion Application</h1>
       <center>
       <ul id="measurement-types">
         <li><a href="length.php">Length and distance</a></li>
