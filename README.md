@@ -1,9 +1,48 @@
-Primary measure parameters are as below:
-  1) Length & Distance
-  2) Area
-  3) Volume & Capacity
-  4) Mass & Weight
-  5) Speed
-  6) Temparature
-  
-Different units are used to denote the quantity of these parameters. Such as kilograms & grams are used to denote mass & weight, meters & kilometers are used to denote length & distance and so on. The purpose of this project is to convert a particular unit of a parameter to another unit (e.g. gram to kilogram). User selects the parameter at first for conversion, then enter a quantity with a unit and also indicates the unit for final conversion. The program then returns the converted quantity for that unit of that particular parameter.
+<h3 align="center"><a href="measurement-conversion-tool.tiiny.io"><strong> 🌟 Website Live Demo 🌟 </strong></a></h3>
+
+## Project Overview
+
+This project is a simple unit converter designed to convert quantities between different units for various physical parameters.
+
+Supported Parameters are:
+
+⚖️ Length & Distance
+⚖️ Area
+⚖️ Volume & Capacity
+⚖️ Mass & Weight
+⚖️ Speed
+⚖️ Temperature
+
+## Functionalities
+
+  🔹Select a Parameter: Choose the physical parameter you want to convert (e.g., length, weight, temperature).
+
+  🔹Input a Quantity and Unit: Enter the quantity you want to convert and the unit it's currently in (e.g., 10 meters).
+
+  🔹Choose the Target Unit: Select the desired unit for the converted quantity (e.g., kilometers).
+
+  🔹Get the Converted Quantity: The program calculates and displays the converted quantity in the target unit.
+
+By leveraging this tool, one can easily perform unit conversions for various everyday and scientific applications.
+
+## Development Environment & Deployment
+
+Ensure you have:
+
+  ▪️ PHP installed on your system.
+
+  ▪️ A local server setup (like XAMPP, WAMP, MAMP, or PHP's built-in server).
+
+Steps to run the project are as below:
+
+1. Clone the Repository: git clone https://github.com/Maliha-Tasnim/Measurement-Conversion-Tool.git
+
+2. Navigate to the Project Directory: cd Measurement-Conversion-Tool
+
+3. Run the PHP Server (if using PHP's built-in server): php -S localhost:8000.
+   
+4. Open a browser and go to http://localhost:8000/index.php.
+   
+5. Using XAMPP/WAMP/MAMP: Copy the project folder to the htdocs folder (XAMPP) or the www folder (WAMP). 
+
+   Then start the server (Apache). Access the tool in the browser via http://localhost/Measurement-Conversion-Tool/index.php.
